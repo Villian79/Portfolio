@@ -8,6 +8,7 @@ body{
 	font-size: 17px;
 	color: #000;
 	line-height: 1.6;
+	text-align: justify;
 }
 
 header {
@@ -47,6 +48,16 @@ nav {
 	justify-content: space-between;
 	background-color: #f3f3f3;
 	overflow: hidden;
+	z-index: 1;
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	transition: top 0.3s;
+}
+
+nav:hover {
+	background-color: green;
+	color: #fff;
 }
 
 
