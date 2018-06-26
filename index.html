@@ -2,77 +2,572 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Portfolio of Igor Vilinchuk, aspiring front-end web developer from Ukraine">
+	<meta name="description" content="Portfolio of Igor Vilinchuk, aspiring full-stack web developer from Ukraine">
 	<meta name="keywords" content="Portfolio,Villian79,HTML,CSS,JavaScript,Bootstrap">
 	<meta name="author" content="Igor Vilinchuk">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title>Igor Vilinchuk | My Portfolio</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/css/main.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+	
+	<link rel="stylesheet" type="text/css" href="./assets/css/slicknav.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/menu_sideslide.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/slide-style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/nivo-lightbox.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
 
 </head>
 <body>
-	<nav class="topnav">
-		<div id = 'logo'>
-			<a href="#">Igor Vilinchuk</a>
+
+<header id="header-wrap">
+	<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					<span class="icon-menu"></span>
+					<span class="icon-menu"></span>
+					<span class="icon-menu"></span>
+				</button>
+				<a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+			</div>
+			<div class="collapse navbar-collapse" id="main-navbar">
+				<ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+					<li class="nav-item active"><a class="nav-link" href="#hero-area">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolios">Work</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li></ul>
+			</div>
 		</div>
-		<div class="menu">
-			<ul id = "menu">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact Me</a></li>
-				<li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars fa-2x"></i></a></li>
-			</ul>
-		</div>
+		
+		<ul class="onepage-nev mobile-menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#portfolio">Work</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
 	</nav>
-	<header id="landing-wrapper">
-		<div id="landing-header">
-			<h2>Igor Vilinchuk</h2>
-			<p>Aspiring Full-Stack Web Developer.</p>
-			<a type="button" class="btn btn-outline-info" href="#">Read More...</a>
+	
+	
+	<div id="hero-area" class="hero-area-bg">
+		<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 text-center">
+						<div class="contents">
+							<h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
+							<h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Igor Vilinchuk</h2>
+							<p class="script-font wow fadeInUp" data-wow-delay="0.6s">Aspiring Full-Stack Web Developer</p>
+							<ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+								<li><a class="github" href="https://github.com/Villian79" target="_blank"><i class="icon-social-github"></i></a></li>
+								<li><a class="twitter" href="https://twitter.com/ivilinchuk" target="_blank"><i class="icon-social-twitter"></i></a></li>
+								<li><a class="linkedin" href="https://www.linkedin.com/in/igor-vilinchuk-35356087/" target="_blank"><i class="icon-social-linkedin"></i></a></li>
+								<li><a class="facebook" href="https://www.facebook.com/ivilinchuk" target="_blank"><i class="icon-social-facebook"></i></a></li>
+								<li><a class="google" href="https://plus.google.com/u/0/106288777821569492113" target="_blank"><i class="icon-social-google"></i></a></li>
+							</ul>
+							<div class="header-button wow fadeInUp" data-wow-delay="1s">
+								<a href="https://codepen.io/Villian79/full/KZpdJX/" class="btn btn-common" target="_blank">Get a Free Quote</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</header>
+	
+	
+<section id="about" class="section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+					<img class="img-fluid rounded" src="assets/img/about/about-1.jpg" alt="Profile image of Igor Vilinchuk">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+					<h3>Hello Everyone!</h3>
+					<p>I am an aspiring full-stack web developer from Ukraine. 
+						It's my great pleasure to meet you here. I am a self-taught entry-level developer. 
+						Previously, I worked as a bank clerk for one of the banks back in Ukraine. 
+						Three years ago I quit the job, considered job options available, talked to my family, and decided to sign a contract 
+						with one of the English Language Centers in South China. While having a teaching job, I started to go deeply into learning programming skills. I took many on-line 
+						programming courses, signed-up for <a href="https://freecodecamp.org" target="_blank">freecodecamp curriculum</a>, completed several projects.
+						Now I feel that I'm ready to change my career one more time. I would be more than happy to collaborate on any type of real-world projects.
+						Please, feel free to reach me via social links or contact form provided. Thank you for your attention and for stopping by :)
+					</p>
+					<div class="about-profile">
+						<ul class="admin-profile">
+							<li><span class="pro-title"> Name </span> <span class="pro-detail">Igor Vilinchuk</span></li>
+							<li><span class="pro-title"> Age </span> <span class="pro-detail">39 Years</span></li>
+							<li><span class="pro-title"> Experience </span> <span class="pro-detail">2 Years, Beginner Level</span></li>
+							<li><span class="pro-title"> Country </span> <span class="pro-detail">Ukraine</span></li>
+							<li><span class="pro-title"> Location </span> <span class="pro-detail">Fujian Province, China</span></li>
+							<li><span class="pro-title"> e-mail </span> <span class="pro-detail">ivilinchuk@gmail.com</span></li>
+							<li><span class="pro-title"> Technologies </span> <span class="pro-detail">HTML, CSS, JS, Node, React, MongoDB, Bootstrap, jQuery, Git/GitHub</span></li>
+							<li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li>
+						</ul>
+					</div>
+					<a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+					<a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+				</div>
+			</div>
 		</div>
-	</header>
-	<section id="section-a">
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Cras eleifend odio orci, ultricies lobortis sem feugiat ac. 
-		Curabitur a erat urna. Nullam rhoncus pellentesque euismod. 
-		Vestibulum eget lacus at sapien luctus viverra. 
-		Donec dapibus lorem at bibendum efficitur. 
-		Mauris sit amet justo at nunc consectetur facilisis. 
-		Nullam finibus quam molestie velit venenatis ullamcorper. 
-		Fusce non condimentum urna. In dictum hendrerit ante vitae gravida.
-		Vivamus et purus facilisis, ornare nunc id, mattis ante. 
-		Mauris ipsum justo, tincidunt eget vehicula sed, feugiat faucibus diam. 
-		Nulla venenatis purus a neque viverra, ac interdum purus varius. 
-		Quisque euismod ligula eu neque imperdiet consequat. Nullam. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Cras eleifend odio orci, ultricies lobortis sem feugiat ac. 
-		Curabitur a erat urna. Nullam rhoncus pellentesque euismod. 
-		Vestibulum eget lacus at sapien luctus viverra. 
-		Donec dapibus lorem at bibendum efficitur. 
-		Mauris sit amet justo at nunc consectetur facilisis. 
-		Nullam finibus quam molestie velit venenatis ullamcorper. 
-		Fusce non condimentum urna. In dictum hendrerit ante vitae gravida.
-		Vivamus et purus facilisis, ornare nunc id, mattis ante. 
-		Mauris ipsum justo, tincidunt eget vehicula sed, feugiat faucibus diam. 
-		Nulla venenatis purus a neque viverra, ac interdum purus varius. 
-		Quisque euismod ligula eu neque imperdiet consequat. Nullam. 
-		</p>
+	</div>
+</section>
+	
+	
+<section id="services" class="services section-padding">
+	<h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I Can Offer </h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-3 col-xs-12">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+						<div class="icon">
+							<i class="icon-grid"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">Front-end Development</a></h3>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p> -->
+							<p>
+								<i class="fab fa-html5 fa-3x"></i>
+								<i class="fab fa-css3-alt fa-3x"></i>
+								<i class="fab fa-js fa-3x"></i>
+								<i class="fab fa-react fa-3x"></i>
+								<i class="fab fa-wordpress fa-3x"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-md-6 col-lg-3 col-xs-12">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+						<div class="icon">
+							<i class="icon-layers"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">Back-end Development</a></h3>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p> -->
+							<i class="fab fa-node fa-3x"></i>
+							<i class="fab fa-npm fa-3x"></i>
+							<i class="fab fa-js fa-3x"></i>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-md-6 col-lg-3 col-xs-12">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+						<div class="icon">
+							<i class="icon-briefcase"></i>
+						</div>
+					<div class="services-content">
+						<h3><a href="#">Database Maintainance</a></h3>
+						<br>
+						<p>MongoDB</p>
+						<p> </p>
+					</div>
+					</div>
+				</div>
+	
+				<div class="col-md-6 col-lg-3 col-xs-12">
+					<div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+						<div class="icon">
+							<i class="icon-bubbles"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">Source Control</a></h3>
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p> -->
+							<i class="fab fa-github-square fa-3x"></i>
+							<i class="fab fa-git-square fa-3x"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</section>
 	
+	
+	<div id="resume" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="education wow fadeInRight" data-wow-delay="0.3s">
+						<ul class="timeline">
+							<li><i class="icon-graduation"></i><h2 class="timelin-title">Education</h2></li>
+							<li>
+								<div class="content-text">
+									<h3 class="line-title">Khmelnytsky State University, Ukraine</h3><span>1996-2002</span>
+									<p class="line-text">Bachelor's Degree in Economics. Major in Banks and World Economy</p>
+								</div>
+							</li>
+							<li>
+								<div class="content-text">
+									<h3 class="line-title">Modesto Junior College, CA, USA</h3><span>1998-1999</span>
+									<p class="line-text">Completed educational program as an exchange student. Mojor in English Language and Computer Science</p>
+								</div>
+							</li>
+							<li>
+								<div class="content-text">
+									<h3 class="line-title">FreecodeCamp Online School</h3><span>2016 - present</span>
+									<p class="line-text">Online education according to FreecodeCamp curriculum. Some of projects presented in my portfolio section were created as part of the learning process.</p>
+								</div>
+							</li>
+	</ul>
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	<div class="experience wow fadeInRight" data-wow-delay="0.6s">
+	<ul class="timeline">
+	<li>
+	<i class="icon-briefcase"></i>
+	 <h2 class="timelin-title">Experience</h2>
+	</li>
+	<li>
+	<div class="content-text">
+	<h3 class="line-title">Art Director - Tesla Inc.</h3>
+	<span>Jan 2018 - Present</span>
+	<p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+	</div>
+	</li>
+	<li>
+	<div class="content-text">
+	<h3 class="line-title">UX/UI Designer - Samsung</h3>
+	<span>Nov 2016 - Dec 2017</span>
+	<p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+	</div>
+	</li>
+	<li>
+	<div class="content-text">
+	<h3 class="line-title">Intern UI Designer - UIdeck</h3>
+	<span>Mar 2015 - Oct 2016</span>
+	<p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+	</div>
+	</li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	
+	<section id="portfolios" class="section-padding">
+	
+	<div class="container">
+	<h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+	<div class="row">
+	<div class="col-md-12">
+	
+	<div class="controls text-center">
+	<a class="filter active btn btn-common" data-filter="all">
+	All
+	</a>
+	<a class="filter btn btn-common" data-filter=".design">
+	Design
+	</a>
+	<a class="filter btn btn-common" data-filter=".development">
+	Development
+	</a>
+	<a class="filter btn btn-common" data-filter=".print">
+	Print
+	</a>
+	</div>
+	
+	</div>
+	
+	<div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+	<div class="portfolio-item">
+	<div class="shot-item">
+	<img src="assets/img/gallery/img-1.jpg" alt="" />
+	<div class="overlay">
+	<div class="icons">
+	<a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+	<i class="icon-eye"></i>
+	</a>
+	<a class="link" href="#">
+	<i class="icon-link"></i>
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	</section>
+	
+	
+	<section class="counter-section section-padding">
+	<div class="container">
+	<div class="row">
+	
+	<div class="col-md-3 col-sm-6 work-counter-widget text-center">
+	<div class="counter wow fadeInDown" data-wow-delay="0.3s">
+	<div class="icon"><i class="icon-briefcase"></i></div>
+	<div class="counterUp">250</div>
+	<p>Project Working</p>
+	</div>
+	</div>
+	
+	<div class="col-md-3 col-sm-6 work-counter-widget text-center">
+	<div class="counter wow fadeInDown" data-wow-delay="0.6s">
+	<div class="icon"><i class="icon-check"></i></div>
+	<div class="counterUp">950</div>
+	<p>Project Done</p>
+	</div>
+	</div>
+	
+	<div class="col-md-3 col-sm-6 work-counter-widget text-center">
+	<div class="counter wow fadeInDown" data-wow-delay="0.9s">
+	<div class="icon"><i class="icon-diamond"></i></div>
+	 <div class="counterUp">150</div>
+	<p>Awards Received</p>
+	</div>
+	</div>
+	
+	<div class="col-md-3 col-sm-6 work-counter-widget text-center">
+	<div class="counter wow fadeInDown" data-wow-delay="1.2s">
+	<div class="icon"><i class="icon-heart"></i></div>
+	<div class="counterUp">299</div>
+	<p>Happy Clients</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	
+	<section id="contact" class="section-padding">
+	<div class="contact-form">
+	<div class="container">
+	<div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+	<div class="col-md-6 col-lg-6 col-sm-12">
+	<div class="contact-block">
+	<h2>Contact Form</h2>
+	<form id="contactForm">
+	<div class="row">
+	<div class="col-md-6">
+	<div class="form-group">
+	<input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-md-6">
+	<div class="form-group">
+	<input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-md-12">
+	<div class="form-group">
+	<input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-md-12">
+	<div class="form-group">
+	<textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+	<div class="help-block with-errors"></div>
+	</div>
+	<div class="submit-button">
+	<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+	<div id="msgSubmit" class="h3 text-center hidden"></div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	</div>
+	</form>
+	</div>
+	</div>
+	<div class="col-md-6 col-lg-6 col-sm-12">
+	<div class="footer-right-area wow fadeIn">
+	<h2>Contact Address</h2>
+	<div class="footer-right-contact">
+	<div class="single-contact">
+	<div class="contact-icon">
+	<i class="fa fa-map-marker"></i>
+	</div>
+	<p>San Francisco, CA</p>
+	</div>
+	<div class="single-contact">
+	<div class="contact-icon">
+	<i class="fa fa-envelope"></i>
+	</div>
+	<p><a href="/cdn-cgi/l/email-protection#b2dad7dededdf2c6dddf9cd1dddf"><span class="__cf_email__" data-cfemail="e8808d848487a89c8785c68b8785">[email&#160;protected]</span></a></p>
+	<p><a href="/cdn-cgi/l/email-protection#15617a78667460797b7c7067557278747c793b767a78"><span class="__cf_email__" data-cfemail="25514a48564450494b4c4057654248444c490b464a48">[email&#160;protected]</span></a></p>
+	</div>
+	<div class="single-contact">
+	<div class="contact-icon">
+	<i class="fa fa-phone"></i>
+	</div>
+	<p><a href="#">+ (00) 123 456 789</a></p>
+	<p><a href="#">+ (00) 123 344 789</a></p>
+	</div>
+	</div>
+	 </div>
+	</div>
+	<div class="col-md-12">
+	<div id="conatiner-map"></div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	
+	<footer class="footer-area section-padding">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+	<ul class="social-icon">
+	<li>
+	<a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+	</li>
+	<li>
+	<a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+	</li>
+	<li>
+	<a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+	</li>
+	<li>
+	<a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
+	</li>
+	<li>
+	<a class="instagram" href="#"><i class="icon-social-google"></i></a>
+	</li>
+	</ul>
+	<p>Copyright © 2018 UIdeck All Right Reserved</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</footer>
+	
+	
+	<a href="#" class="back-to-top">
+	<i class="icon-arrow-up"></i>
+	</a>
 
+	<script data-cfasync="false" src="./assets/js/email-decode.min.js"></script>
+	<script src="./assets/js/jquery-min.js"></script>
+	<script src="./assets/js/popper.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/jquery.mixitup.js"></script>
+	<script src="./assets/js/jquery.counterup.min.js"></script>
+	<script src="./assets/js/waypoints.min.js"></script>
+	<script src="./assets/js/wow.js"></script>
+	<script src="./assets/js/jquery.nav.js"></script>
+	<script src="./assets/js/jquery.easing.min.js"></script>
+	<script src="./assets/js/nivo-lightbox.js"></script>
+	<script src="./assets/js/jquery.slicknav.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/form-validator.min.js"></script>
+	<script src="./assets/js/contact-form-script.min.js"></script>
+	<script src="./assets/js/map.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+	<!-- <script src="./assets/js/menu.js"></script> -->
+	<!-- <script src="./assets/js/classie.js"></script> -->
+	<!-- <script src="./assets/js/modernizr.custom.js"></script> -->
 
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="./assets/javascript/main.js"></script>
 </body>
 </html>
 
