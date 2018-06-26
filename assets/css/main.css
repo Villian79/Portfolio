@@ -84,7 +84,7 @@ ol li {
   text-align: center
 }
 .section-title-header p {
-  text-align: center;
+  text: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px
@@ -195,8 +195,8 @@ button:focus {
 .social-icon li .twitter:hover {
   background: #4a9cec
 }
-.social-icon li .instagram:hover {
-  background: #d6274d
+.social-icon li .github:hover {
+  background: #000
 }
 .social-icon li .linkedin:hover {
   background: #1260a2
@@ -258,7 +258,7 @@ a.back-to-top:focus {
   box-shadow: 0 0 30px rgba(0, 0, 0, .2)
 }
 .profile-wrapper {
-  padding: 45px 0
+  padding: 0px 0
 }
 .profile-wrapper .btn {
   margin: 10px 10px 0 0
@@ -284,7 +284,7 @@ a.back-to-top:focus {
   content: ':';
   color: #040404;
   font-size: 14px;
-  left: 77px
+  left: 85px
 }
 .about-profile .admin-sign {
   position: absolute;
@@ -958,4 +958,29 @@ a:not([href]):not([tabindex]):hover {
 }
 #copyright p a:hover {
   color: #00b4d9
+}
+
+.fa-js {
+  color: rgb(248, 193, 11);
+  
+}
+
+.fa-html5 {
+  color: #fd7e14;
+}
+
+.fa-css3-alt {
+  color: #82c91e;
+}
+
+.fa-react {
+  color: #748ffc;
+}
+
+.fa-node {
+  color: #026e00;
+}
+
+.fa-npm {
+  color: #c2255c;
 }

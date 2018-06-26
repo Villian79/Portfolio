@@ -1,5 +1,5 @@
 (function($) {
-  "use strict";
+  // "use strict";
   $(window).on('load', function() {
     $('#portfolio').mixItUp();
     var OnePNav = $('.onepage-nev');
@@ -50,7 +50,7 @@
       event.preventDefault();
       $('html, body').animate({
         scrollTop: 0
-      }, 600);
+      }, 1200);
       return false;
     });
     $('.map-icon').on('click', function(e) {

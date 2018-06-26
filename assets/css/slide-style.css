@@ -26,10 +26,10 @@
   animation: imageAnimation 36s linear infinite 0s
 }
 .cb-slideshow li:nth-child(1) span {
-  background-image: url("https://source.unsplash.com/m_HRfLhgABo")
+  background-image: url(../img/slider/img1.jpg)
 }
 .cb-slideshow li:nth-child(2) span {
-  background-image: url("https://source.unsplash.com/hGV2TfOh0ns");
+  background-image: url(../img/slider/img2.jpg);
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
