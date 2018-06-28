@@ -37,7 +37,7 @@
   animation-delay: 6s
 }
 .cb-slideshow li:nth-child(3) span {
-  background-image: url(../img/slider/img1.jpg);
+  background-image: url('https://source.unsplash.com/68ZlATaVYIo');
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
@@ -53,7 +53,7 @@
   animation-delay: 18s
 }
 .cb-slideshow li:nth-child(5) span {
-  background-image: url('https://source.unsplash.com/wkO0q0UTqc8');
+  background-image: url('https://source.unsplash.com/5fNmWej4tAA');
   -webkit-animation-delay: 24s;
   -moz-animation-delay: 24s;
   -o-animation-delay: 24s;
