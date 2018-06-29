@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
   'use strict';
-  var $latitude = 40.674,
-    $longitude = -73.945,
-    $map_zoom = 14;
+  var $latitude = 24.7279559,
+    $longitude = 118.6530109,
+    $map_zoom = 10;
   var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
   var $marker_url = (is_internetExplorer11) ? 'assets/img/location.png' : 'assets/img/location.png';
   var $main_color = '#2d313f',
