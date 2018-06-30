@@ -253,10 +253,19 @@ a.back-to-top:focus {
 .section-padding {
   padding: 60px 0
 }
-#about .img-thumb img {
+#welcome-section .img-thumb img {
   border: 8px solid #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, .2)
 }
+
+
+#welcome-section {
+	height: 100vh;
+	margin-bottom: 180px;
+}
+
+
+
 .profile-wrapper {
   padding: 0px 0
 }
@@ -666,13 +675,13 @@ a.back-to-top:focus {
 #hero-area .banner_bottom_btn i:hover {
   color: #ddd
 }
-#portfolios {
+#projects {
   background: #f2f2f2
 }
-#portfolios .mix {
+#projects .mix {
   padding: 10px
 }
-#portfolios .portfolio-item .shot-item {
+#projects .project-tile .shot-item {
   margin: 0
 }
 #portfolio .mix {
