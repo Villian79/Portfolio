@@ -258,7 +258,7 @@ a.back-to-top:focus {
   box-shadow: 0 0 30px rgba(0, 0, 0, .2)
 }
 
-
+/*Should be deleted for production*/
 #welcome-section {
 	height: 100vh;
 	margin-bottom: 180px;
@@ -590,6 +590,12 @@ a.back-to-top:focus {
   display: none
 }
 @media screen and (max-width:768px) {
+	
+	#welcome-section {
+	
+	height: auto;
+}
+	
   .navbar-header {
     width: 100%
   }
