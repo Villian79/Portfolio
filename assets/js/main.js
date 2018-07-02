@@ -8,14 +8,14 @@
       currentClass: 'active',
       scrollOffset: top_offset,
     });
-    $('#preloader').fadeOut();
-    $(window).on('scroll', function() {
-      if ($(window).scrollTop() > 200) {
-        $('.scrolling-navbar').addClass('top-nav-collapse');
-      } else {
-        $('.scrolling-navbar').removeClass('top-nav-collapse');
-      }
-    });
+    // $('#preloader').fadeOut();
+    // $(window).on('scroll', function() {
+    //   if ($(window).scrollTop() > 200) {
+    //     $('.scrolling-navbar').addClass('top-nav-collapse');
+    //   } else {
+    //     $('.scrolling-navbar').removeClass('top-nav-collapse');
+    //   }
+    // });
     $('.mobile-menu').slicknav({
       prependTo: '.navbar-header',
       parentTag: 'liner',
